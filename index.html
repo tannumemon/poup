@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>popup</title>
+</head>
+<body>
+    <div class="container">
+      
+            <button type="submit"class="btn"onclick="openbtn()">Sumbit</button>
+
+<div class="poup"id="poup">
+    <img src="./download-removebg-preview.png" alt="1">
+    <h2>Thnak You!</h2>
+    <p>thank you bhai..for helping me <br>everday!☺</p>
+    <button type="button"onclick="colsebtn()">Ok</button>
+</div>
+
+        </div>
+    </div>
+    <script>
+        let poup=document.getElementById('poup');
+        function openbtn(){
+            poup.style.display='block';
+        }
+        function colsebtn(){
+            poup.style.display='none';
+        }
+    </script>
+</body>
+</html>
